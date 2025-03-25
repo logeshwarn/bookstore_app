@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5555'; // Update this with your backend URL
+const API_URL = 'https://bookstore-app-s3lc.onrender.com'; // Update this with your backend URL
 
 export const getAllBooks = async () => {
   try {
